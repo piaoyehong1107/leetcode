@@ -9,6 +9,7 @@
 |1290|[ Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|[JavaScript](./solutions/1290.%20Convert%20Binary%20Number%20in%20a%20Linked%20List%20to%20Integer.js)|96 ms|
 |1295|[ Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)|[JavaScript](./solutions/1295.%20Find%20Numbers%20with%20Even%20Number%20of%20Digits.js)|80 ms|
 |1323|[ Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/)|[JavaScript](./solutions/1323.%20Maximum%2069%20Number.js)|96 ms|
+|1351|[ Count Negative Numbers in a Sorted Matrix](https://leetcode.com/problems/count-negative-numbers-in-a-sorted-matrix/)|[JavaScript](./solutions/1351.%20Count%20Negative%20Numbers%20in%20a%20Sorted%20Matrix.js)|100 ms|
 |1365|[ How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|[JavaScript](./solutions/1365.%20How%20Many%20Numbers%20Are%20Smaller%20Than%20the%20Current%20Number.js)|144 ms|
 |1436|[ Destination City](https://leetcode.com/problems/destination-city/)|[JavaScript](./solutions/1436.%20Destination%20City.js)|80 ms|
 |1464|[ Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)|[JavaScript](./solutions/1464.%20Maximum%20Product%20of%20Two%20Elements%20in%20an%20Array.js)|184 ms|
