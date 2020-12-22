@@ -4,6 +4,7 @@
 |---| ----- | -------- | ------- |
 |771|[ Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[JavaScript](./solutions/771.%20Jewels%20and%20Stones.js)|84 ms|
 |832|[ Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[JavaScript](./solutions/832.%20Flipping%20an%20Image.js)|276 ms|
+|1266|[ Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)|[JavaScript](./solutions/1266.%20Minimum%20Time%20Visiting%20All%20Points.js)|84 ms|
 |1281|[ Subtract the Product and Sum of Digits of an Integer](https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)|[JavaScript](./solutions/1281.%20Subtract%20the%20Product%20and%20Sum%20of%20Digits%20of%20an%20Integer.js)|76 ms|
 |1290|[ Convert Binary Number in a Linked List to Integer](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/)|[JavaScript](./solutions/1290.%20Convert%20Binary%20Number%20in%20a%20Linked%20List%20to%20Integer.js)|96 ms|
 |1295|[ Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/)|[JavaScript](./solutions/1295.%20Find%20Numbers%20with%20Even%20Number%20of%20Digits.js)|80 ms|
