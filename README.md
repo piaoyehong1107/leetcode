@@ -11,5 +11,6 @@
 |1323|[ Maximum 69 Number](https://leetcode.com/problems/maximum-69-number/)|[JavaScript](./solutions/1323.%20Maximum%2069%20Number.js)|96 ms|
 |1365|[ How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)|[JavaScript](./solutions/1365.%20How%20Many%20Numbers%20Are%20Smaller%20Than%20the%20Current%20Number.js)|144 ms|
 |1436|[ Destination City](https://leetcode.com/problems/destination-city/)|[JavaScript](./solutions/1436.%20Destination%20City.js)|80 ms|
+|1464|[ Maximum Product of Two Elements in an Array](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)|[JavaScript](./solutions/1464.%20Maximum%20Product%20of%20Two%20Elements%20in%20an%20Array.js)|184 ms|
 |1528|[ Shuffle String](https://leetcode.com/problems/shuffle-string/)|[JavaScript](./solutions/1528.%20Shuffle%20String.js)|144 ms|
 |1572|[ Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/)|[JavaScript](./solutions/1572.%20Matrix%20Diagonal%20Sum.js)|92 ms|
