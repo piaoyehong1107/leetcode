@@ -2,6 +2,7 @@
 
 | # | Title | Solution | Runtime |
 |---| ----- | -------- | ------- |
+|53|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[JavaScript](./solutions/53.%20Maximum%20Subarray.js)|464 ms|
 |70|[ Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[JavaScript](./solutions/70.%20Climbing%20Stairs.js)|120 ms|
 |101|[ Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[JavaScript](./solutions/101.%20Symmetric%20Tree.js)|80 ms|
 |344|[ Reverse String](https://leetcode.com/problems/reverse-string/)|[JavaScript](./solutions/344.%20Reverse%20String.js)|96 ms|
