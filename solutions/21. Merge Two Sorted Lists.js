@@ -10,16 +10,6 @@
  * @param {ListNode} l2
  * @return {ListNode}
  */
-// var mergeTwoLists = function(l1, l2) {
-//     let l3=new ListNode(0)
-//     l1.next=l2
-//     l3=l1
-//     l3.next=l3
-// //     if(l1.val<l2.val){
-​
-// //     }
-//     console.log(l3.next)
-// };
 ​
 let mergeTwoLists = function(l1, l2) {
     let fh = new ListNode(-1);
@@ -27,13 +17,19 @@ let mergeTwoLists = function(l1, l2) {
     while(l1 || l2){
         if(l2 == null || (l1 !== null && l1.val <= l2.val)){
             fh.next = l1;
+            console.log("1")
+            console.log(fh)
+            console.log(current)
             fh = fh.next;
             l1 = l1.next;
         } else {
             fh.next = l2;
+             console.log("2")
+            console.log(fh)
+            console.log(current)
             fh = fh.next;
             l2 = l2.next;
         }
-    }
+    }
     return current.next;
 };
