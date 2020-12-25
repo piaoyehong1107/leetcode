@@ -7,19 +7,18 @@
 var isAlienSorted = function(words, order) {
     let orders=order.split("")
    // console.log (orders.indexOf(words[0][1]))
-    for(let i=0;i<words.length-1;i++){
-       let j=0
+    for(let i=0;i<words.length-1; i++){
+        let j=0
         while(j<words[0].length){
-            if(orders.indexOf(words[i+1][j])==orders.indexOf(words[i][j])){
-                console.log("a")
-                j++
-            }else if(orders.indexOf(words[i+1][j]) < orders.indexOf(words[i][j])){
-                console.log("x")
-               return false
-            }else{
-               console.log("?")
-               return true
+            if(orders.indexOf(words[i+1][j]) > orders.indexOf(words[i][j])){
+                break;
+           }
+            if(orders.indexOf(words[i+1][j]) < orders.indexOf(words[i][j])){
+                console.log("X")
+                return false
             }
+                console.log(words[i][j])
+                j++;
         }    
     }
     return true
