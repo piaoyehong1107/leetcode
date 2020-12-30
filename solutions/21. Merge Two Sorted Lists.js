@@ -33,24 +33,3 @@ var mergeTwoLists = function(l1, l2) {
     return current.next
 };
 ​
-// var mergeTwoLists = function(l1, l2) {
-//     let newHead = new ListNode();
-//     let cur = newHead;
-//     while (l1 && l2) {
-//         if (l1.val < l2.val) {
-//             cur.next = l1;
-//             cur = cur.next;
-//             l1 = l1.next;
-//         } else {
-//             cur.next = l2;
-//             cur = cur.next;
-//             l2 = l2.next;
-//         }
-//     }
-//     if (l1) cur.next = l1;
-//     if (l2) cur.next = l2;
-​
-//     return newHead.next;
-//     // Time Complexity: O(m + n), m = length of l1, n = length of l2
-//     // Space Complexity: O(1)
-// };
