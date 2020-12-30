@@ -10,26 +10,47 @@
  * @param {ListNode} l2
  * @return {ListNode}
  */
-​
-let mergeTwoLists = function(l1, l2) {
-    let fh = new ListNode(-1);
-    let current = fh;
-    while(l1 || l2){
-        if(l2 == null || (l1 !== null && l1.val <= l2.val)){
-            fh.next = l1;
-            console.log("1")
-            console.log(fh)
-            console.log(current)
-            fh = fh.next;
-            l1 = l1.next;
-        } else {
-            fh.next = l2;
-             console.log("2")
-            console.log(fh)
-            console.log(current)
-            fh = fh.next;
-            l2 = l2.next;
+var mergeTwoLists = function(l1, l2) {
+    // console.log(l2==null)
+    let l3=new ListNode(0)
+    let current=l3
+    while(l1  && l2 ){
+        if (l1.val<=l2.val){
+            l3.next=l1
+            console.log(l3)
+            l3=l3.next
+            l1=l1.next
+        }else{
+            l3.next=l2
+            console.log(l3)
+            l3=l3.next
+            l2=l2.next
         }
     }
-    return current.next;
+    if(!l1) l3.next=l2
+    if(!l2) l3.next=l1
+    
+    return current.next
 };
+​
+// var mergeTwoLists = function(l1, l2) {
+//     let newHead = new ListNode();
+//     let cur = newHead;
+//     while (l1 && l2) {
+//         if (l1.val < l2.val) {
+//             cur.next = l1;
+//             cur = cur.next;
+//             l1 = l1.next;
+//         } else {
+//             cur.next = l2;
+//             cur = cur.next;
+//             l2 = l2.next;
+//         }
+//     }
+//     if (l1) cur.next = l1;
+//     if (l2) cur.next = l2;
+​
+//     return newHead.next;
+//     // Time Complexity: O(m + n), m = length of l1, n = length of l2
+//     // Space Complexity: O(1)
+// };
