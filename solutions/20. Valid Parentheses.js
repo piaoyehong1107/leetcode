@@ -9,8 +9,6 @@ var isValid = function(s) {
         '[': ']'
     }
     let arr=s.split("")
-​
-//     console.log(arr.splice(0,1))
     let i=0
     while(i<arr.length){
         if(hash[arr[i]] && arr.includes(hash[arr[i]])){
@@ -24,7 +22,6 @@ var isValid = function(s) {
         }else{
             return false
         }
-        i++
     return true
-    };
+    };
 }
