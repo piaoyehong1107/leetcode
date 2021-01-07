@@ -2,7 +2,7 @@
 
 | # | Title | Solution | Runtime |
 |---| ----- | -------- | ------- |
-|20|[ Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[JavaScript](./solutions/20.%20Valid%20Parentheses.js)|N/A|
+|20|[ Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[JavaScript](./solutions/20.%20Valid%20Parentheses.js)|84 ms|
 |21|[ Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[JavaScript](./solutions/21.%20Merge%20Two%20Sorted%20Lists.js)|200 ms|
 |53|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[JavaScript](./solutions/53.%20Maximum%20Subarray.js)|464 ms|
 |70|[ Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[JavaScript](./solutions/70.%20Climbing%20Stairs.js)|120 ms|
