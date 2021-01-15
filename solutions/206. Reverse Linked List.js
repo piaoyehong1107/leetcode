@@ -16,14 +16,8 @@ var reverseList = function(head) {
         head.next=prev
         console.log(head)
         prev=head
-        console.log(prev)
         head=future
     }
     return prev
 };
-  // const futr = head.next
-  //       head.next = prev
-  //       console.log(prev)
-  //       prev = head
-  //       console.log(head)
-  //       head = futr
+​
