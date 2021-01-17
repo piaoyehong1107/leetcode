@@ -11,6 +11,7 @@
 |206|[ Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[JavaScript](./solutions/206.%20Reverse%20Linked%20List.js)||
 |344|[ Reverse String](https://leetcode.com/problems/reverse-string/)|[JavaScript](./solutions/344.%20Reverse%20String.js)|96 ms|
 |392|[ Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[JavaScript](./solutions/392.%20Is%20Subsequence.js)|76 ms|
+|415|[ Add Strings](https://leetcode.com/problems/add-strings/)|[JavaScript](./solutions/415.%20Add%20Strings.js)|N/A|
 |557|[ Reverse Words in a String III](https://leetcode.com/problems/reverse-words-in-a-string-iii/)|[JavaScript](./solutions/557.%20Reverse%20Words%20in%20a%20String%20III.js)|76 ms|
 |771|[ Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/)|[JavaScript](./solutions/771.%20Jewels%20and%20Stones.js)|84 ms|
 |832|[ Flipping an Image](https://leetcode.com/problems/flipping-an-image/)|[JavaScript](./solutions/832.%20Flipping%20an%20Image.js)|276 ms|
