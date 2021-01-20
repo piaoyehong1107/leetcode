@@ -1,3 +1,12 @@
+/**
+ * @param {string} num1
+ * @param {string} num2
+ * @return {string}
+ */
+var addStrings = function(num1, num2) {
+    num1a=num1.split("").reverse()
+    num2a=num2.split("").reverse()
+    let dict={
         undefined: 0,
         '0': 0,
         '1': 1,
@@ -14,20 +23,20 @@
     let adv=0
     let sum=''
     while(num1a[i]||num2a[i]){
-        let temp=dict[num1a[i]]+dict[num2a[i]]+adv
-        if(temp>9){
-            adv=1
-            sum=(temp%10).toString() + sum
-        }
-        else{
-            adv=0
-            sum=temp.toString() + sum
-        }
+        let temp=dict[num1a[i]]+dict[num2a[i]]+ adv
+            if(temp>9){
+                adv=1
+                sum=(temp%10).toString() + sum
+            }
+            else{
+                adv=0
+                sum=temp.toString() + sum
+            }
         i++
     }
     if(adv==1){
         return adv.toString()+sum
     }else{
         return sum
-    }
+    }
 };
