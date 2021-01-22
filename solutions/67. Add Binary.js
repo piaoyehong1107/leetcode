@@ -9,10 +9,8 @@ var addBinary = function(a, b) {
     let adv=0
     let final=''
     let i=0
-    let sum=0
     while(a[aa-i] || b[bb-i]){
-        
-        sum = (parseInt(a[aa-i])||0)+(parseInt(b[bb-i])||0)+parseInt(adv)
+       let sum = (parseInt(a[aa-i])||0)+(parseInt(b[bb-i])||0)+parseInt(adv)
         console.log(sum)
         if(sum==0){
             adv=0
