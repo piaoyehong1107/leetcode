@@ -2,6 +2,7 @@
 
 | # | Title | Solution | Runtime |
 |---| ----- | -------- | ------- |
+|14|[ Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|[JavaScript](./solutions/14.%20Longest%20Common%20Prefix.js)||
 |20|[ Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)|[JavaScript](./solutions/20.%20Valid%20Parentheses.js)|84 ms|
 |21|[ Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[JavaScript](./solutions/21.%20Merge%20Two%20Sorted%20Lists.js)|200 ms|
 |53|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[JavaScript](./solutions/53.%20Maximum%20Subarray.js)|464 ms|
