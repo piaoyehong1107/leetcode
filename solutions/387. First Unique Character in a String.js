@@ -3,14 +3,15 @@
  * @return {number}
  */
 var firstUniqChar = function(s) {
-    let i=0
-    while(i < s.length){
-        const k=s.split("")
-        k.splice(i,1)
-        if(!k.includes(s[i])){
-            return i
+    let dic={}
+    for(let i=0; i<s.length; i++){
+        dic[s[i]] ? dic[s[i]]=dic[s[i]]+1 : dic[s[i]]= 1
+    }
+    for (const ss in dic) {
+        if(dic[ss]==1){
+            return s.indexOf(ss)
         }
-        i++
     }
     return -1
 };
+​
