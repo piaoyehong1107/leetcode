@@ -10,14 +10,15 @@ var firstUniqChar = function(s) {
     else if(s.length==2 && s[0]==s[1]){
         return -1
     }
-    while(i < s.length-1){
+    while(i < s.length){
         const k=s.split("")
         k.splice(i,1)
         // console.log(k)
         if(!k.includes(s[i])){
             return i
-        }  
+        }
+        console.log(i)
         i++
-        if(i==s.length-2) return -1
+        // if(i==s.length-2) return -1
     }
 };
