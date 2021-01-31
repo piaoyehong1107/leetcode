@@ -8,12 +8,14 @@ var isHappy = function(n) {
     for(let i=0; i< st.length; i++){
         final=final+Math.pow(parseInt(st[i]),2)
     }
+    console.log(final)
     if(final.toString().length !=1 ) {
         isHappy(parseInt(final))
      }
-    console.log(final)
-    if(final !=1 ) return false
-    if(final ==1) return true
-    
+    if(final.toString().length ==1 && final ==1){
+        return true
+    }else if(final.toString().length ==1 && final !=1){
+        return false
+    }
     return final
 };
