@@ -10,6 +10,7 @@
 |70|[ Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[JavaScript](./solutions/70.%20Climbing%20Stairs.js)|120 ms|
 |101|[ Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[JavaScript](./solutions/101.%20Symmetric%20Tree.js)|80 ms|
 |112|[ Path Sum](https://leetcode.com/problems/path-sum/)|[JavaScript](./solutions/112.%20Path%20Sum.js)|92 ms|
+|202|[ Happy Number](https://leetcode.com/problems/happy-number/)|[JavaScript](./solutions/202.%20Happy%20Number.js)|340 ms|
 |206|[ Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)|[JavaScript](./solutions/206.%20Reverse%20Linked%20List.js)||
 |344|[ Reverse String](https://leetcode.com/problems/reverse-string/)|[JavaScript](./solutions/344.%20Reverse%20String.js)|96 ms|
 |392|[ Is Subsequence](https://leetcode.com/problems/is-subsequence/)|[JavaScript](./solutions/392.%20Is%20Subsequence.js)|76 ms|
