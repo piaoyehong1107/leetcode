@@ -8,15 +8,11 @@ var numDecodings = function(s) {
         "14":"N","15":"O","16":"P","17":"Q","18":"R","19":"S","20":"T","21":"U","22":"V","23":"W","24":"X","25":"Y","26":"Z",
     }
     const l=s.length
-    let final=0
+    let final=1
     for(let i=0; i<l; i++){
-        if(dic[s[i]] && dic[s[i+1]]){
+        if(dic[s[i]] && dic[s[i+1]] && dic[s[i]+s[i+1]]){
             final++
         }
-        if(dic[s[i]+s[i+1]]){
-            final++
-        }
-        i++
         console.log(i)
     }
     return final
