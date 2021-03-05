@@ -8,6 +8,7 @@
 |53|[ Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)|[JavaScript](./solutions/53.%20Maximum%20Subarray.js)|464 ms|
 |67|[ Add Binary](https://leetcode.com/problems/add-binary/)|[JavaScript](./solutions/67.%20Add%20Binary.js)|176 ms|
 |70|[ Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)|[JavaScript](./solutions/70.%20Climbing%20Stairs.js)|120 ms|
+|91|[ Decode Ways](https://leetcode.com/problems/decode-ways/)|[JavaScript](./solutions/91.%20Decode%20Ways.js)|N/A|
 |101|[ Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)|[JavaScript](./solutions/101.%20Symmetric%20Tree.js)|80 ms|
 |112|[ Path Sum](https://leetcode.com/problems/path-sum/)|[JavaScript](./solutions/112.%20Path%20Sum.js)|92 ms|
 |200|[ Number of Islands](https://leetcode.com/problems/number-of-islands/)|[JavaScript](./solutions/200.%20Number%20of%20Islands.js)|N/A|
