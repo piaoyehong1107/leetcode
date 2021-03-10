@@ -3,26 +3,23 @@ class Solution:
         """
         Do not return anything, modify nums1 in-place instead.
         """
-        
-        p = m + n - 1
-        p1, p2 = m - 1, n - 1
-        
-        while p1 >= 0 and p2 >= 0:
-            if nums1[p1] > nums2[p2]:
-                nums1[p] = nums1[p1]
-                p1 -= 1
+        l=m+n-1
+        x1=m-1 
+        x2=n-1
+        while x1>=0 and x2>=0:
+            if nums2[x2]>nums1[x1]:
+                nums1[l]=nums2[x2]
+                x2 -= 1
             else:
-                nums1[p] = nums2[p2]
-                p2 -= 1
-            
-            p -= 1
-        
-        while p1 >= 0:
-            nums1[p] = nums1[p1]
-            p -= 1
-            p1 -= 1
-        
-        while p2 >= 0:
-            nums1[p] = nums2[p2]
-            p -= 1
-            p2 -= 1
+                nums1[l]=nums1[x1]
+                x1 -= 1
+            l -= 1
+        while x2>=0:
+            nums1[l]=nums2[x2]
+            x2 -= 1
+            l -= 1
+        while x1>=0:
+            nums1[l]=nums1[x1]
+            x1 -= 1
+            l -= 1
+    
